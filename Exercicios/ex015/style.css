@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: blanchedalmond;
+    font-family:unset;
+    font-size: 20px;           
+}
+
+h1 {
+    color: brown;
+    background-color: white;
+}
+
+h2 {
+    color: darkgreen;
+    background-color: white;
+}
+
+p {
+    text-align: justify;
+}
