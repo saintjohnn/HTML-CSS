@@ -13,31 +13,16 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-        }
-
-        tr.linha {
-            background-color: blanchedalmond;
         }
 
         td {
             border:1px solid black;
             padding: 7px;
-            
+            text-align: center; /* Alinhamento Horizontal */
+            vertical-align: middle; /* Alinhamento Vertical*/
         }
-
-        td.dado {
-            background-color: aqua;
-        }
-
-        tr.y {
-            background-color: yellow;
-        }
-
-        tr.o {
-            background-color: orange;
-        }
-
     </style>
 </head>
 <body>
@@ -51,21 +36,21 @@
     -->
     <table>
         <tr> <!-- Primeira linha -->
-            <td class="dado">A1</td>
+            <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha"> <!-- Segunda linha -->
+        <tr> <!-- Segunda linha -->
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
-        <tr class="o"> <!-- Terceira linha -->
+        <tr> <!-- Terceira linha -->
             <td>A3</td>
             <td>B3</td>
             <td>C3</td>
         </tr>
-        <tr class="y"> <!-- Quarta linha -->
+        <tr> <!-- Quarta linha -->
             <td>A4</td>
             <td>B4</td>
             <td>C4</td>
